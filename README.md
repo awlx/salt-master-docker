@@ -1,6 +1,8 @@
 # salt-master-docker
 Dockerized salt-master
 
+Also runs on ARM
+
 docker run -d -t  \
     -p 4505:4505 \
     -p 4506:4506 \
