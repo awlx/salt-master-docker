@@ -1,6 +1,5 @@
 FROM alpine:latest
-MAINTAINER SUSE Containers Team <containers@suse.com>
-
+MAINTAINER Annika Wickert <aw@awlnx.space>
 RUN apk add salt-master
 
 RUN adduser -Ss /bin/false saltapi
